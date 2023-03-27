@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="tax.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+ 
+	<h1>Tax Calculator</h1>
+	<form onsubmit="calculateTax(event)">
+		<label for="income">Income:</label>
+		<input type="number" id="income" name="income" required><br>
+		<label for="age">Age:</label>
+		<input type="number" id="age" name="age" required><br>
+		<input type="submit" value="Calculate Tax">
+	</form>
+	<div id="result" style="display: none;">
+		<h2>Tax Calculation Result</h2>
+		<p>Income: <span id="incomeResult"></span></p>
+		<p>Age: <span id="ageResult"></span></p>
+		<p>Tax: <span id="taxResult"></span></p>
+	</div>
+
+	
+
+
+  <script src="tax.js"></script>
+
+
+</body>
+
+</html>

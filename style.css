@@ -1,0 +1,200 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  *{
+      margin: 0px;
+      padding: 0px;
+      box-sizing: border-box;
+  }
+  nav{
+      
+      width: 100%;
+      height: 75px;
+      line-height: 75px;
+      padding: 0px 100px;
+      position: absolute;
+      background-color: #7A56BA;
+  }
+   p{
+    font-size: 25px;
+    float: left;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    left: 20px;
+  
+  font-family: 'Inter';
+  
+  
+  color: #000000;
+  }
+  .xes{
+      
+      float: left;
+      letter-spacing: 1.5px;
+      cursor: pointer;
+      left: 20px;
+    
+  
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 80px;
+  
+  color: #FDC0C7;
+  
+  text-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
+  }
+  nav ul{
+      float: right;
+  }
+  nav li{
+      display: inline-block;
+      list-style: none;
+  }
+  nav li a{
+      color: black;
+      font-size: 18px;
+      text-transform: uppercase;
+      padding: 0px 20px;
+     
+      text-decoration: none;
+  }
+  nav li a:hover{
+      color:aliceblue;
+      transition: all 0.4s ease 0s;
+  
+  }
+  
+  .cont{
+      position: absolute;
+      top: 100px;
+      font-family: 'Inter';
+      margin-left: 20px;
+  }
+  
+  
+  button{
+      display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 3px 28px;
+  gap: 16px;
+  
+  position: absolute;
+  width: 236px;
+  height: 65px;
+  left: 49px;
+  top: 140px;
+  color: white;
+  
+  border-radius: 30px;
+  border: none;
+  }
+  button :hover{
+      color: white;
+  }
+  select{
+    background-color:#7A56BA ;
+    color: white;
+  }
+  nav{
+    color: white;
+  }
+  li{
+    color: white;
+  }
+  .yellow{
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 20px;
+  text-align: left;
+  background-image: url(coin1.jpg);
+  
+  position: absolute;
+  width: 100%;
+  height: 517px;
+  left: 0px;
+  top: 190px;
+  
+ 
+  border-radius: 0px;
+  }
+  .n1{
+      position: absolute;
+    
+  width: 30%;
+  height: 390px;
+  left: 20px;
+  top: 731px;
+  
+  background: #7753B7;
+  border-radius: 50px;
+  }
+  .Rect1{
+    position: absolute;
+    width: 30%;
+  height: 390px;
+  left: 500px;
+  top: 830px;
+  
+  background: #7753B7;
+  border-radius: 50px;
+  }
+  .Rect2{
+    margin-bottom: 20px;
+    position: absolute;
+  width: 30%;
+  height: 390px;
+  left: 975px;
+  top: 830px;
+  
+  background: #7753B7;
+  border-radius: 50px;
+  }
+  .qwerty{
+    
+    color: black;
+  }
+  
+  
+  
+  .img img{
+      width: 100%;
+      border-radius: 50px;
+    height: 390px;
+  }
+  .button{
+    position: absolute;
+      text-align: center;
+    top: 1250px;
+    left: 125px;
+    background-color:#7753B7 ;
+  }
+
+  .button1{
+    position: absolute;
+      text-align: center;
+    top: 1250px;
+    left: 575px;
+    background-color:#7753B7 ;
+  }
+
+  .button2{
+    position: absolute;
+      text-align: center;
+    top: 1250px;
+    left: 1075px;
+    background-color:#7753B7 ;
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+  
